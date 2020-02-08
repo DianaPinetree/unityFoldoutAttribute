@@ -5,7 +5,7 @@ Just add the two folders to your Assets folder in your unity project.
 In code usage:
 
 ```csharp
-[Foldout("Movement Parameters")]
+[Foldout("Movement Parameters", true)]
 [SerializeField] private float moveSpeed = 20;
 [Foldout("Movement Parameters")]
 [SerializeField] private LayerMask groundMask;
